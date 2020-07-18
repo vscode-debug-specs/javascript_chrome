@@ -1,8 +1,3 @@
----
-title: How to Debug FrontEnd JavaScript(Chrome) and TypeScript with VSCode
-permalink: /
----
-
 # How to Debug FrontEnd JavaScript(Chrome) and TypeScript with VSCode
 
 ## Summary
