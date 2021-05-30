@@ -1,19 +1,20 @@
 {
-    "compilerOptions": {
-        // must set output dir
-        "outDir": "./html/js/",
-        // for node_modules dir
-        "baseUrl": "./",
-        "module": "commonjs",
-        "target": "es2017",
-        // must set for debug
-        "sourceMap": true,
-        "noImplicitAny": false,
-        "strict": true,
-        "esModuleInterop": true
-    },
-    // set if you'll like to divide .ts and others
-    "include": [
-        "./js/**/*"
-    ]
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ES2018",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["webpack.config.js", ".prettierrc.js", ".eslintrc.js"],
+  "include": ["./src/**/*", "./tests/**/*"]
 }
